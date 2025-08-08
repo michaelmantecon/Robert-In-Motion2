@@ -1,0 +1,54 @@
+/* Header Styles */
+
+header {
+    background-color: #3A3FCD;
+    color: #F9FAFB;
+    padding: 20px;
+    text-align: center;
+    /* Flexbox properties for centering */
+    display: flex;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 5em;
+    font-family: 'Brush Script MT', cursive;
+}
+
+header h1 a {
+    color: #F9FAFB;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-left: 10%;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: #F9FAFB;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #FFD700;
+}
