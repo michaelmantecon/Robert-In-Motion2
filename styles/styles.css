@@ -20,6 +20,11 @@ header {
     text-align: center;
     /* Flexbox properties for centering */
     display: flex;
+    /* header stylings */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
 header h1 {
