@@ -1,3 +1,16 @@
+/* CSS Styles for Robert in Motion Website */
+
+/* Body Styles */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #F9FAFB;
+    color: #333;
+}
+
 /* Header Styles */
 
 header {
@@ -40,6 +53,9 @@ header nav ul {
 
 header nav ul li {
     display: inline;
+    margin: 0 15px;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 header nav ul li a {
@@ -51,4 +67,56 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: #FFD700;
+}
+
+/* Main Content Styles */
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Section Styles */
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Hero Section Styles */
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero img {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* Image Stylings */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero .container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero .container p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.hero .container h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
